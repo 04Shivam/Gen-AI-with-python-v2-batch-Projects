@@ -10,6 +10,12 @@ This project is a conversational AI chatbot that emulates the tone, personality,
 - ✅ JSON-based output parsing using LangChain’s `JsonOutputParser`
 - ✅ Runs locally in terminal with context tracking
 
+## Demo
+
+Here's a quick look at the chatbot in action:
+
+![Chatbot Demo](test_run.gif)
+
 ## Tech Stack
 
 - Python 3.10+
