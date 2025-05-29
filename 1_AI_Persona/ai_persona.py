@@ -1,7 +1,6 @@
 import json
 from pathlib import Path
 from langchain_ollama import ChatOllama
-from youtube_transcript_api import YouTubeTranscriptApi
 from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.output_parsers import JsonOutputParser
 from typing import TypedDict, Literal, Annotated
