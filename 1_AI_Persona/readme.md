@@ -16,4 +16,3 @@ This project is a conversational AI chatbot that emulates the tone, personality,
 - [LangChain](https://www.langchain.com/)
 - [Ollama](https://ollama.com/)
 - `gemma3:4b` local model
-- YouTube Transcript API (prepped for future extensions)
