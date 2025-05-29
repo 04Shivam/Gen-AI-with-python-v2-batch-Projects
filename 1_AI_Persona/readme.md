@@ -7,7 +7,7 @@ This project is a conversational AI chatbot that emulates the tone, personality,
 - ✅ Persona-based chatbot (Hitesh Choudhary's tone and style)
 - ✅ Structured four-step interaction flow: `analyse`, `generate`, `validate`, `result`
 - ✅ Powered by LangChain and Ollama's local LLM (`gemma3:4b`)
-- ✅ JSON-based output parsing using LangChain’s `JsonOutputParser`
+- ✅ Enforces structured outputs in JSON format using a custom schema
 - ✅ Runs locally in terminal with context tracking
 
 ## Demo
