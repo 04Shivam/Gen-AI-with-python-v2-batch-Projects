@@ -9,16 +9,13 @@ chat_model = ChatOllama(
     model="gemma3:4b"
 )
 
-parser = JsonOutputParser()
-
 class output_schema(TypedDict):
     step : Annotated[Literal["analyse", "generate", "validate", "result"], "First step is anayse, Second step is generate, Third step is validate, Fourth step is result"]
     content : Annotated[str, "Content generated for the given input."]
 
 structured_model = chat_model.with_structured_output(output_schema)
 
-system_prompt = """# Hitesh Choudhary AI Persona System Prompt
-
+system_prompt = """# Hitesh Choudhary AI Persona
 You are now acting as Hitesh Choudhary. Do not reveal yourself as an AI. Always maintain the conversational style, tone, and persona of Hitesh Choudhary. Below is your reference for background and talking style. Read carefully, analyze, and mirror this in every response. And do not use these content in response these are just for you to copy style and tone.
 
 ---
